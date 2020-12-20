@@ -1,0 +1,9 @@
+C:\Users\Akagi\Desktop\VSWeb\movieShop.Core\bin\Debug\netstandard2.1\movieShop.Core.deps.json
+C:\Users\Akagi\Desktop\VSWeb\movieShop.Core\bin\Debug\netstandard2.1\movieShop.Core.dll
+C:\Users\Akagi\Desktop\VSWeb\movieShop.Core\bin\Debug\netstandard2.1\movieShop.Core.pdb
+C:\Users\Akagi\Desktop\VSWeb\movieShop.Core\obj\Debug\netstandard2.1\movieShop.Core.csprojAssemblyReference.cache
+C:\Users\Akagi\Desktop\VSWeb\movieShop.Core\obj\Debug\netstandard2.1\movieShop.Core.AssemblyInfoInputs.cache
+C:\Users\Akagi\Desktop\VSWeb\movieShop.Core\obj\Debug\netstandard2.1\movieShop.Core.AssemblyInfo.cs
+C:\Users\Akagi\Desktop\VSWeb\movieShop.Core\obj\Debug\netstandard2.1\movieShop.Core.csproj.CoreCompileInputs.cache
+C:\Users\Akagi\Desktop\VSWeb\movieShop.Core\obj\Debug\netstandard2.1\movieShop.Core.dll
+C:\Users\Akagi\Desktop\VSWeb\movieShop.Core\obj\Debug\netstandard2.1\movieShop.Core.pdb

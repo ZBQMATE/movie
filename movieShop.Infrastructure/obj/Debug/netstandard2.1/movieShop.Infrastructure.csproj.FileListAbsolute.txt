@@ -1,0 +1,12 @@
+C:\Users\Akagi\Desktop\VSWeb\movieShop.Infrastructure\bin\Debug\netstandard2.1\movieShop.Infrastructure.deps.json
+C:\Users\Akagi\Desktop\VSWeb\movieShop.Infrastructure\bin\Debug\netstandard2.1\movieShop.Infrastructure.dll
+C:\Users\Akagi\Desktop\VSWeb\movieShop.Infrastructure\bin\Debug\netstandard2.1\movieShop.Infrastructure.pdb
+C:\Users\Akagi\Desktop\VSWeb\movieShop.Infrastructure\bin\Debug\netstandard2.1\movieShop.Core.dll
+C:\Users\Akagi\Desktop\VSWeb\movieShop.Infrastructure\bin\Debug\netstandard2.1\movieShop.Core.pdb
+C:\Users\Akagi\Desktop\VSWeb\movieShop.Infrastructure\obj\Debug\netstandard2.1\movieShop.Infrastructure.csprojAssemblyReference.cache
+C:\Users\Akagi\Desktop\VSWeb\movieShop.Infrastructure\obj\Debug\netstandard2.1\movieShop.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Akagi\Desktop\VSWeb\movieShop.Infrastructure\obj\Debug\netstandard2.1\movieShop.Infrastructure.AssemblyInfo.cs
+C:\Users\Akagi\Desktop\VSWeb\movieShop.Infrastructure\obj\Debug\netstandard2.1\movieShop.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Akagi\Desktop\VSWeb\movieShop.Infrastructure\obj\Debug\netstandard2.1\movieShop.Infrastructure.csproj.CopyComplete
+C:\Users\Akagi\Desktop\VSWeb\movieShop.Infrastructure\obj\Debug\netstandard2.1\movieShop.Infrastructure.dll
+C:\Users\Akagi\Desktop\VSWeb\movieShop.Infrastructure\obj\Debug\netstandard2.1\movieShop.Infrastructure.pdb

@@ -1,0 +1,246 @@
+<p>>{{movie.id}}</p>.
+<p>>{{movie.title}}</p>
+<p>>{{movie.posterUrl}}</p>
+<div >
+
+    <div >
+
+
+
+      
+
+        <div>
+
+            <img src="{{movie.posterUrl}}"/>
+
+        </div>
+
+
+
+    </div> 
+
+  <div class="col-md-4">
+
+        <div class="row mt-2">
+
+            <div class="col-12">
+
+                <h1 class="text-white">
+
+                    {{movie.title}}
+
+                </h1>
+
+                <small class="text-muted"> {{movie.tagline}}</small>
+
+            </div>
+
+
+
+        </div>
+
+
+
+        <div class="row">
+
+            <div class="col-4 text-secondary font-weight-bold mt-2">
+
+               {{movie.runTime}} m |{{movie.releaseDate.getFullYear()}}
+
+            </div>
+
+            <div class="col-8" *ngFor="let genre of movie.genres">
+
+
+
+
+                    <a class="badge badge-pill badge-dark ml-1" asp-action="Genre" >
+
+                       {{ genre.Name}}
+
+                    </a>
+
+
+            </div>
+
+        </div>
+
+
+
+        <div class="row">
+
+            <div class="col-4 mt-3">
+
+                <h4>
+
+                    <span class="badge badge-warning">
+
+                        {{movie.rating}}
+
+                    </span>
+
+                </h4>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="row">
+
+            <div class="col-12 text-light mt-2">
+
+               {{movie.overview}}
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <div class="col-md-2 mt-4 offset-1">
+
+        <ul class="list-group">
+
+            <li class="list-group-item">
+
+
+
+
+
+            </li>
+
+            <li class="list-group-item">
+
+                <button type="button"
+
+                        class="btn btn-outline-light btn-lg btn-block btn-sm">
+
+                    <i class="far fa-edit mr-1"></i>
+
+                    REVIEW
+
+                </button>
+
+            </li>
+
+            <li class="list-group-item">
+
+                <button type="button"
+
+                        class="btn btn-outline-light btn-lg btn-block btn-sm">
+
+                    <i class="fas fa-play mr-1"></i> TRAILER
+
+                </button>
+
+            </li>
+
+
+
+            <li class="list-group-item">
+
+                <button type="button" class="btn btn-light btn-lg btn-block btn-sm" data-toggle="modal" data-target="#buyMovieModal">
+
+                    BUY {{movie.price}}
+
+                </button>
+
+
+
+                <button type="button" class="btn btn-light btn-lg btn-block btn-sm">
+
+                    WATCH MOVIE
+
+                </button>
+
+            </li>
+
+        </ul>
+
+    </div>
+
+
+
+</div>
+
+
+<div class="row mt-4">
+
+<div class="col-4 moviefacts">
+    <h2>    {{movie.releaseDate}}</h2>
+    <h5>MOVIE FACTS</h5>
+
+    <hr>
+
+    <ul class="list-group list-group-flush">
+
+        <li class="list-group-item">
+
+            <i class="far fa-calendar-alt mr-2"></i>Release Date
+
+            <span class="badge badge-pill badge-dark">{{movie.releaseDate}}</span>
+
+        </li>
+
+
+
+        <li class="list-group-item">
+
+            <i class="fas fa-hourglass-half mr-2"></i>Run Time
+
+            <span class="badge badge-pill badge-dark">{{movie.runTime.toString()}}</span>
+
+        </li>
+
+        <li class="list-group-item">
+
+            <i class="far fa-money-bill-alt"></i> Box Office
+
+            <span class="badge badge-pill badge-pill badge-dark">
+
+                
+
+                {{movie.revenue}}
+
+            </span>
+
+        </li>
+
+
+
+        <li class="list-group-item">
+
+            <i class="fas fa-dollar-sign mr-2"></i> Budget
+
+            <span class="badge badge-pill badge-dark">
+                {{movie.budget.toString()}}
+            </span>
+
+        </li>
+        <li class="list-group-item">
+            <i class="fab fa-imdb"></i>
+            <a href="{{movie.imdbUrl}}" class="text-dark ml-3" target="_blank">
+                <i class="fas fa-share-square mr-2"></i>
+            </a>
+        </li>
+    </ul>
+</div>
+<div class="col-4 offset-1">
+    <h5>CAST</h5>
+    <table class="table">
+        <tbody *ngFor="let cast of movie.casts">
+            <tr>
+                <td>
+                    <img src="{{cast.ProfilePath}}"class="cast-small-img rounded-circle"alt="{{cast.Name}}"/>
+                </td>
+                <td> {{cast.Name }}</td>
+                <td> {{cast.Character}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+

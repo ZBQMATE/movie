@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "W2hQmND2YdMrxXkFu5Ts8OcTLPC33d0Mo1c9My4NcqtuTERedr5mTOssIOMiGMqnoDvIEUY/n39/DwhnK+M9PQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Akagi\\Desktop\\VSWeb\\movieShop.Core\\movieShop.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Akagi\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,7 @@
+C:\Users\Akagi\Desktop\VSWeb\ConsoleAppTest\bin\Debug\ConsoleAppTest.exe.config
+C:\Users\Akagi\Desktop\VSWeb\ConsoleAppTest\bin\Debug\ConsoleAppTest.exe
+C:\Users\Akagi\Desktop\VSWeb\ConsoleAppTest\bin\Debug\ConsoleAppTest.pdb
+C:\Users\Akagi\Desktop\VSWeb\ConsoleAppTest\obj\Debug\ConsoleAppTest.csprojAssemblyReference.cache
+C:\Users\Akagi\Desktop\VSWeb\ConsoleAppTest\obj\Debug\ConsoleAppTest.csproj.CoreCompileInputs.cache
+C:\Users\Akagi\Desktop\VSWeb\ConsoleAppTest\obj\Debug\ConsoleAppTest.exe
+C:\Users\Akagi\Desktop\VSWeb\ConsoleAppTest\obj\Debug\ConsoleAppTest.pdb
